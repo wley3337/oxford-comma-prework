@@ -6,7 +6,7 @@ def oxford_comma(array)
   else
     new_array = []
     last_item_array = []
-    last_item_array.push(array.pop
+    last_item_array.push(array.pop)
     
     
   end
