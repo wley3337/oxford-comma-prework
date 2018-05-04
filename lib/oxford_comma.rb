@@ -4,10 +4,11 @@ def oxford_comma(array)
   elsif array.length == 2 
     array.join(" and ")
   else
-    new_array = []
+    almost_all_array = []
     last_item_array = []
     last_item_array.push(array.pop)
-    
+    array.each |x|
+      almost_all_array.push(x + ",")
     
     
   end
