@@ -9,6 +9,7 @@ def oxford_comma(array)
     last_item_array.push(array.pop)
     array.each |x|
       almost_all_array.push(x + ",")
+    end
     
     
   end
