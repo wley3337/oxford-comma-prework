@@ -6,7 +6,7 @@ def oxford_comma(array)
   else
     almost_all_array = []
     last_item_array = []
-    last_item_array.push(array.pop)
+    last_item_array.push("and " + array.pop)
     array.each |x|
       almost_all_array.push(x + ",")
     end
