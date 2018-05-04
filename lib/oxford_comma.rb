@@ -11,7 +11,7 @@ def oxford_comma(array)
       almost_all_array.push(x + ",")
     end
     almost_all_array.concat(last_item_array)
-    almost_all_array.join()
+    almost_all_array.join
     
   end
 end
